@@ -1,0 +1,19 @@
+{
+  "name": "disaster-dashboard-backend",
+  "version": "1.0.0",
+  "description": "Backend for disaster dashboard Twitter scraping",
+  "main": "twitterScraper.js",
+  "scripts": {
+    "start": "node twitterScraper.js",
+    "dev": "nodemon twitterScraper.js"
+  },
+  "dependencies": {
+    "axios": "^1.13.2",
+    "cheerio": "^1.1.2",
+    "cors": "^2.8.5",
+    "express": "^4.21.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.11"
+  }
+}

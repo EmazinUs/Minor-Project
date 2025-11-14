@@ -1,0 +1,22 @@
+# Node modules
+
+disaster-dashboard/node_modules/
+server/node_modules/
+
+# Build folders
+dist/
+build/
+
+# Environment variables
+.env
+.env.local
+frontend/.env
+backend/.env
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS / IDE junk
+.DS_Store
+.vscode/
